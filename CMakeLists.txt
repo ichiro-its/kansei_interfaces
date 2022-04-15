@@ -19,6 +19,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Axis.msg"
   "msg/Fallen.msg"
+  "msg/Point3.msg"
   "msg/Unit.msg")
 
 ament_export_dependencies(rosidl_default_runtime)

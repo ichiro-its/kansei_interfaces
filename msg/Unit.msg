@@ -1,2 +1,2 @@
 Axis gyro
-Axis accelero
+Point3 accelero
