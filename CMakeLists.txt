@@ -8,7 +8,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
+rosidl_generate_interfaces(kansei_interfaces
   "msg/Axis.msg"
   "msg/Point3.msg"
   "msg/Status.msg"
